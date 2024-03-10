@@ -110,7 +110,7 @@ Read these before you start:
 | WiFi / BT   | Centrino® N 2200/BCM 2045B |
 |Bootloader   | OpenCore v0.7.1      |
 
-- Refer to [X220-Platform_Specifications](https://www.productindetail.com/pn/lenovo-thinkpad-x200) for possible stock ThinkPad X200 configurations.
+- Refer to [X200-Platform_Specifications](https://www.productindetail.com/pn/lenovo-thinkpad-x200) for possible stock ThinkPad X200 configurations.
 
 </details>
 
