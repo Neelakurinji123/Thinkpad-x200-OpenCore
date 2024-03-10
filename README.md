@@ -107,7 +107,7 @@ Read these before you start:
 | GPU         | Intel GMA 4500MHD         |
 | HDD         | 500GB                    |
 | Display     | 12.1' WXGA (1280x800)    |
-| WiFi / BT   | Centrino® N 2230/BCM 2045B |
+| WiFi / BT   | Centrino® N 2200/BCM 2045B |
 |Bootloader   | OpenCore v0.7.1      |
 
 - Refer to [X220-Platform_Specifications](https://www.productindetail.com/pn/lenovo-thinkpad-x200) for possible stock ThinkPad X200 configurations.
