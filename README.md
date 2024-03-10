@@ -80,7 +80,7 @@ Read these before you start:
 
 </details>
 
-<det)ails>
+<details>
 <summary><strong> REQUIREMENTS </strong></summary>
 <br>
 
