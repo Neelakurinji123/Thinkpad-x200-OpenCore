@@ -27,7 +27,7 @@
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | Battery Percentage Indication        | ✅   | `ECEnabler.kext`            | 
-| Power Management                     | ❗   | `XCPM`, enabled by `SSDT-PM.aml` |
+| Power Management                     | ✅   | `XCPM`, enabled by `SSDT-PM.aml` |
 | S3 Sleep/ Hibernation Mode 3         | ❌   |   |   
 | Battery Life                         | ✅   | Native, comparable to Windows/Linux. |
 
