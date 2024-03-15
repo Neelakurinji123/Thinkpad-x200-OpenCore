@@ -35,28 +35,28 @@
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| WiFi                                 | ✅   | `AirportItlwm.kext`  |
-| Bluetooth (external)                 | ✅   | `BrcmPatchRAM.kext`  |
-| Ethernet                             | ✅   | `IntelMausi.kext`  |
-| USB 2.0                              | ✅   | `USBMap.kext`   |
-| USB Power Properties                 | ✅   | `SSDT-EC.aml` |
+| WiFi                                 | ✅   | `AirportItlwm.kext`   |
+| Bluetooth                            | ✅   |                       |
+| Ethernet                             | ✅   | `IntelMausi.kext`     |
+| USB 2.0                              | ✅   | `USBMap.kext`         |
+| USB Power Properties                 | ✅   | `SSDT-EC.aml`         |
 
 > ### Display, TrackPad, TrackPoint, and Keyboard
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | Brightness Adjustments | ❌  | `WhateverGreen.kext` and `BrightnessKeys.kext`|
-| TrackPoint             | ✅  | `VoodooPS2Controller.kext` |
-| TrackPad               | ✅  | `VoodooPS2Controller.kext` |
-| Built-in Keyboard      | ✅  | `VoodooPS2Controller.kext` ||
+| TrackPoint             | ✅  | `VoodooPS2Controller.kext`           |
+| TrackPad               | ✅  | `VoodooPS2Controller.kext`           |
+| Built-in Keyboard      | ✅  | `VoodooPS2Controller.kext`           |
 
 > ### macOS Continuity
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
-| iCloud, iMessage, FaceTime           | ❗   | Not tested            |
-| AirDrop                              | ❗   | Not tested            |
-| Time Machine                         | ❗   | Native: Not tested    |
+| iCloud, iMessage, FaceTime           | ❗     | Not tested          |
+| AirDrop                              | ❗     | Not tested          |
+| Time Machine                         | ❗     | Native: Not tested  |
 
 </details>
 
@@ -142,7 +142,9 @@ Before you do anything, please familiarize yourself with basic Hackintosh termin
 <br>
 
 - To use mod bios, disable the AppleCpuPmCfgLock Quirk.
-- To use HomeBrew, edit HomeBrew ENV from '-march=nehalem' to '-march=core2'  
+- To use HomeBrew, edit HomeBrew ENV from '-march=nehalem' to '-march=core2'.
+- The problem of UHCI/OHCI USB 1.1 Controllers, use USB HUB for keyboard and mouse.
+
 
 </details>
 
